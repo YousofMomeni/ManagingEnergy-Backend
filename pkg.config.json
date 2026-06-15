@@ -1,0 +1,9 @@
+{
+    "assets":  [
+                   "config/**/*",
+                   "node_modules/sqlite3/lib/binding/**/*",
+                   "node_modules/axios/**/*",
+                   "node_modules/bcrypt/lib/binding/**/*",
+                   "node_modules/sqlite3/**/*"
+               ]
+}

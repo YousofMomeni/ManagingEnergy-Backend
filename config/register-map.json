@@ -1,0 +1,1370 @@
+{
+  "map": {
+    "registers": {
+      "i_t": 111,
+      "vl_t": 103,
+      "p_t": 115,
+      "q_t": 119,
+      "pf_t": 127
+    },
+    "metadata": {
+      "i_t": {
+        "measurement": "I avg",
+        "unit": "Amper",
+        "format": "INT16",
+        "scale": "PCS"
+      },
+      "vl_t": {
+        "measurement": "Vll avg",
+        "unit": "Volt",
+        "format": "INT16",
+        "scale": "PVS"
+      },
+      "p_t": {
+        "measurement": "P total",
+        "unit": "Watt",
+        "format": "INT16",
+        "scale": "PPS"
+      },
+      "q_t": {
+        "measurement": "Q total",
+        "unit": "Var",
+        "format": "INT16",
+        "scale": "PPS"
+      },
+      "pf_t": {
+        "measurement": "PF total (unsigned)",
+        "unit": "",
+        "format": "INT16",
+        "scale": "*1000"
+      }
+    }
+  },
+  "usualParameters": {
+    "registers": {
+      "i_tab": {
+        "i_1": 108,
+        "i_2": 109,
+        "i_3": 110,
+        "i_t": 111
+      },
+      "v_tab": {
+        "v_1": 104,
+        "v_2": 105,
+        "v_3": 106,
+        "v_t": 107
+      },
+      "vl_tab": {
+        "vl_1": 100,
+        "vl_2": 101,
+        "vl_3": 102,
+        "vl_t": 103
+      },
+      "cp_tab": {
+        "cp_1": 124,
+        "cp_2": 125,
+        "cp_3": 126,
+        "cp_t": 127
+      },
+      "pf_tab": {
+        "pf_1": 124,
+        "pf_2": 125,
+        "pf_3": 126,
+        "pf_t": 127
+      },
+      "p_tab": {
+        "p_1": 112,
+        "p_2": 113,
+        "p_3": 114,
+        "p_t": 115
+      },
+      "q_tab": {
+        "q_1": 116,
+        "q_2": 117,
+        "q_3": 118,
+        "q_t": 119
+      },
+      "s_tab": {
+        "s_1": 120,
+        "s_2": 121,
+        "s_3": 122,
+        "s_t": 123
+      },
+      "t_eng": {
+        "act_imp": 200,
+        "act_exp": 202,
+        "re_imp": 206,
+        "re_exp": 208
+      },
+      "t_i_eng": {
+        "t1": 210,
+        "t2": 212,
+        "t3": 214,
+        "t4": 216
+      },
+      "t_e_eng": {
+        "t1": 218,
+        "t2": 220,
+        "t3": 222,
+        "t4": 224
+      },
+      "demand": {
+        "max_imp": 128,
+        "max_exp": 129,
+        "cur_dem": 130
+      },
+      "other": {
+        "freq": 131,
+        "unb_v": 132,
+        "unb_i": 133,
+        "i_null": 134
+      }
+    },
+    "metadata": {
+      "i_tab": {
+        "i_1": {
+          "measurement": "I1",
+          "unit": "Amper",
+          "format": "INT16",
+          "scale": "PCS"
+        },
+        "i_2": {
+          "measurement": "I2",
+          "unit": "Amper",
+          "format": "INT16",
+          "scale": "PCS"
+        },
+        "i_3": {
+          "measurement": "I3",
+          "unit": "Amper",
+          "format": "INT16",
+          "scale": "PCS"
+        },
+        "i_t": {
+          "measurement": "I avg",
+          "unit": "Amper",
+          "format": "INT16",
+          "scale": "PCS"
+        }
+      },
+      "v_tab": {
+        "v_1": {
+          "measurement": "Vln 1",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "v_2": {
+          "measurement": "Vln 2",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "v_3": {
+          "measurement": "Vln 3",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "v_t": {
+          "measurement": "Vln avg",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        }
+      },
+      "vl_tab": {
+        "vl_1": {
+          "measurement": "Vll 1",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "vl_2": {
+          "measurement": "Vll 2",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "vl_3": {
+          "measurement": "Vll 3",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        },
+        "vl_t": {
+          "measurement": "Vll avg",
+          "unit": "Volt",
+          "format": "INT16",
+          "scale": "PVS"
+        }
+      },
+      "cp_tab": {
+        "cp_1": {
+          "measurement": "PF 1 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "cp_2": {
+          "measurement": "PF 2 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "cp_3": {
+          "measurement": "PF 3 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "cp_t": {
+          "measurement": "PF total (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        }
+      },
+      "pf_tab": {
+        "pf_1": {
+          "measurement": "PF 1 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "pf_2": {
+          "measurement": "PF 2 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "pf_3": {
+          "measurement": "PF 3 (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        },
+        "pf_t": {
+          "measurement": "PF total (unsigned)",
+          "unit": "",
+          "format": "INT16",
+          "scale": "*1000"
+        }
+      },
+      "p_tab": {
+        "p_1": {
+          "measurement": "P1",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "p_2": {
+          "measurement": "P2",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "p_3": {
+          "measurement": "P3",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "p_t": {
+          "measurement": "P total",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        }
+      },
+      "q_tab": {
+        "q_1": {
+          "measurement": "Q1",
+          "unit": "Var",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "q_2": {
+          "measurement": "Q2",
+          "unit": "Var",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "q_3": {
+          "measurement": "Q3",
+          "unit": "Var",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "q_t": {
+          "measurement": "Q total",
+          "unit": "Var",
+          "format": "INT16",
+          "scale": "PPS"
+        }
+      },
+      "s_tab": {
+        "s_1": {
+          "measurement": "S1",
+          "unit": "VA",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "s_2": {
+          "measurement": "S2",
+          "unit": "VA",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "s_3": {
+          "measurement": "S3",
+          "unit": "VA",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "s_t": {
+          "measurement": "S total",
+          "unit": "VA",
+          "format": "INT16",
+          "scale": "PPS"
+        }
+      },
+      "t_eng": {
+        "act_imp": {
+          "measurement": "Energy imp. Total",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "act_exp": {
+          "measurement": "Energy exp. Total",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "re_imp": {
+          "measurement": "Reactive Energy imp.",
+          "unit": "kVarh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "re_exp": {
+          "measurement": "Reactive Energy exp.",
+          "unit": "kVarh",
+          "format": "INT32",
+          "scale": "*1"
+        }
+      },
+      "t_i_eng": {
+        "t1": {
+          "measurement": "Energy imp. Tariff 1",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t2": {
+          "measurement": "Energy imp. Tariff 2",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t3": {
+          "measurement": "Energy imp. Tariff 3",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t4": {
+          "measurement": "Energy imp. Tariff 4",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        }
+      },
+      "t_e_eng": {
+        "t1": {
+          "measurement": "Energy exp. Tariff 1",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t2": {
+          "measurement": "Energy exp. Tariff 2",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t3": {
+          "measurement": "Energy exp. Tariff 3",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        },
+        "t4": {
+          "measurement": "Energy exp. Tariff 4",
+          "unit": "kWh",
+          "format": "INT32",
+          "scale": "*1"
+        }
+      },
+      "demand": {
+        "max_imp": {
+          "measurement": "Max Demand import",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "max_exp": {
+          "measurement": "Max Demand export",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        },
+        "cur_dem": {
+          "measurement": "Current Demand",
+          "unit": "Watt",
+          "format": "INT16",
+          "scale": "PPS"
+        }
+      },
+      "other": {
+        "freq": {
+          "measurement": "Frequency",
+          "unit": "Hz",
+          "format": "INT16",
+          "scale": "*100"
+        },
+        "unb_v": {
+          "measurement": "Unb. V",
+          "unit": "%",
+          "format": "INT16",
+          "scale": "*1"
+        },
+        "unb_i": {
+          "measurement": "Unb. I",
+          "unit": "%",
+          "format": "INT16",
+          "scale": "*1"
+        },
+        "i_null": {
+          "measurement": "In",
+          "unit": "Amper",
+          "format": "INT16",
+          "scale": "pcs"
+        }
+      }
+    }
+  },
+  "harmonicParameters": {
+    "registers": {
+      "i_1_tab": {
+        "I1_2": 770,
+        "I1_3": 771,
+        "I1_4": 772,
+        "I1_5": 773,
+        "I1_6": 774,
+        "I1_7": 775,
+        "I1_8": 776,
+        "I1_9": 777,
+        "I1_10": 778,
+        "I1_11": 779,
+        "I1_12": 780,
+        "I1_13": 781,
+        "I1_14": 782,
+        "I1_15": 783,
+        "I1_16": 784,
+        "I1_17": 785,
+        "I1_18": 786,
+        "I1_19": 787,
+        "I1_20": 788,
+        "I1_21": 789,
+        "I1_22": 790
+      },
+      "i_2_tab": {
+        "I2_2": 793,
+        "I2_3": 794,
+        "I2_4": 795,
+        "I2_5": 796,
+        "I2_6": 797,
+        "I2_7": 798,
+        "I2_8": 799,
+        "I2_9": 800,
+        "I2_10": 801,
+        "I2_11": 802,
+        "I2_12": 803,
+        "I2_13": 804,
+        "I2_14": 805,
+        "I2_15": 806,
+        "I2_16": 807,
+        "I2_17": 808,
+        "I2_18": 809,
+        "I2_19": 810,
+        "I2_20": 811,
+        "I2_21": 812,
+        "I2_22": 813
+      },
+      "i_3_tab": {
+        "I3_2": 816,
+        "I3_3": 817,
+        "I3_4": 818,
+        "I3_5": 819,
+        "I3_6": 820,
+        "I3_7": 821,
+        "I3_8": 822,
+        "I3_9": 823,
+        "I3_10": 824,
+        "I3_11": 825,
+        "I3_12": 826,
+        "I3_13": 827,
+        "I3_14": 828,
+        "I3_15": 829,
+        "I3_16": 830,
+        "I3_17": 831,
+        "I3_18": 832,
+        "I3_19": 833,
+        "I3_20": 834,
+        "I3_21": 835,
+        "I3_22": 836
+      },
+      "v_1_tab": {
+        "V1_2": 839,
+        "V1_3": 840,
+        "V1_4": 841,
+        "V1_5": 842,
+        "V1_6": 843,
+        "V1_7": 844,
+        "V1_8": 845,
+        "V1_9": 846,
+        "V1_10": 847,
+        "V1_11": 848,
+        "V1_12": 849,
+        "V1_13": 850,
+        "V1_14": 851,
+        "V1_15": 852,
+        "V1_16": 853,
+        "V1_17": 854,
+        "V1_18": 855,
+        "V1_19": 856,
+        "V1_20": 857,
+        "V1_21": 858,
+        "V1_22": 859
+      },
+      "v_2_tab": {
+        "V2_2": 862,
+        "V2_3": 863,
+        "V2_4": 864,
+        "V2_5": 865,
+        "V2_6": 866,
+        "V2_7": 867,
+        "V2_8": 868,
+        "V2_9": 869,
+        "V2_10": 870,
+        "V2_11": 871,
+        "V2_12": 872,
+        "V2_13": 873,
+        "V2_14": 874,
+        "V2_15": 875,
+        "V2_16": 876,
+        "V2_17": 877,
+        "V2_18": 878,
+        "V2_19": 879,
+        "V2_20": 880,
+        "V2_21": 881,
+        "V2_22": 882
+      },
+      "v_3_tab": {
+        "V3_2": 885,
+        "V3_3": 886,
+        "V3_4": 887,
+        "V3_5": 888,
+        "V3_6": 889,
+        "V3_7": 890,
+        "V3_8": 891,
+        "V3_9": 892,
+        "V3_10": 893,
+        "V3_11": 894,
+        "V3_12": 895,
+        "V3_13": 896,
+        "V3_14": 897,
+        "V3_15": 898,
+        "V3_16": 899,
+        "V3_17": 900,
+        "V3_18": 901,
+        "V3_19": 902,
+        "V3_20": 903,
+        "V3_21": 904,
+        "V3_22": 905
+      }
+    },
+    "metadata": {
+      "i_1_tab": {
+        "I1_2": {
+          "measurement": "I1 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_3": {
+          "measurement": "I1 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_4": {
+          "measurement": "I1 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_5": {
+          "measurement": "I1 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_6": {
+          "measurement": "I1 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_7": {
+          "measurement": "I1 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_8": {
+          "measurement": "I1 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_9": {
+          "measurement": "I1 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_10": {
+          "measurement": "I1 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_11": {
+          "measurement": "I1 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_12": {
+          "measurement": "I1 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_13": {
+          "measurement": "I1 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_14": {
+          "measurement": "I1 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_15": {
+          "measurement": "I1 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_16": {
+          "measurement": "I1 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_17": {
+          "measurement": "I1 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_18": {
+          "measurement": "I1 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_19": {
+          "measurement": "I1 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_20": {
+          "measurement": "I1 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_21": {
+          "measurement": "I1 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I1_22": {
+          "measurement": "I1 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      },
+      "i_2_tab": {
+        "I2_2": {
+          "measurement": "I2 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_3": {
+          "measurement": "I2 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_4": {
+          "measurement": "I2 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_5": {
+          "measurement": "I2 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_6": {
+          "measurement": "I2 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_7": {
+          "measurement": "I2 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_8": {
+          "measurement": "I2 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_9": {
+          "measurement": "I2 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_10": {
+          "measurement": "I2 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_11": {
+          "measurement": "I2 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_12": {
+          "measurement": "I2 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_13": {
+          "measurement": "I2 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_14": {
+          "measurement": "I2 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_15": {
+          "measurement": "I2 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_16": {
+          "measurement": "I2 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_17": {
+          "measurement": "I2 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_18": {
+          "measurement": "I2 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_19": {
+          "measurement": "I2 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_20": {
+          "measurement": "I2 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_21": {
+          "measurement": "I2 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I2_22": {
+          "measurement": "I2 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      },
+      "i_3_tab": {
+        "I3_2": {
+          "measurement": "I3 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_3": {
+          "measurement": "I3 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_4": {
+          "measurement": "I3 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_5": {
+          "measurement": "I3 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_6": {
+          "measurement": "I3 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_7": {
+          "measurement": "I3 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_8": {
+          "measurement": "I3 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_9": {
+          "measurement": "I3 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_10": {
+          "measurement": "I3 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_11": {
+          "measurement": "I3 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_12": {
+          "measurement": "I3 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_13": {
+          "measurement": "I3 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_14": {
+          "measurement": "I3 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_15": {
+          "measurement": "I3 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_16": {
+          "measurement": "I3 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_17": {
+          "measurement": "I3 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_18": {
+          "measurement": "I3 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_19": {
+          "measurement": "I3 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_20": {
+          "measurement": "I3 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_21": {
+          "measurement": "I3 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "I3_22": {
+          "measurement": "I3 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      },
+      "v_1_tab": {
+        "V1_2": {
+          "measurement": "V1 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_3": {
+          "measurement": "V1 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_4": {
+          "measurement": "V1 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_5": {
+          "measurement": "V1 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_6": {
+          "measurement": "V1 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_7": {
+          "measurement": "V1 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_8": {
+          "measurement": "V1 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_9": {
+          "measurement": "V1 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_10": {
+          "measurement": "V1 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_11": {
+          "measurement": "V1 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_12": {
+          "measurement": "V1 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_13": {
+          "measurement": "V1 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_14": {
+          "measurement": "V1 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_15": {
+          "measurement": "V1 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_16": {
+          "measurement": "V1 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_17": {
+          "measurement": "V1 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_18": {
+          "measurement": "V1 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_19": {
+          "measurement": "V1 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_20": {
+          "measurement": "V1 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_21": {
+          "measurement": "V1 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V1_22": {
+          "measurement": "V1 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      },
+      "v_2_tab": {
+        "V2_2": {
+          "measurement": "V2 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_3": {
+          "measurement": "V2 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_4": {
+          "measurement": "V2 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_5": {
+          "measurement": "V2 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_6": {
+          "measurement": "V2 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_7": {
+          "measurement": "V2 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_8": {
+          "measurement": "V2 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_9": {
+          "measurement": "V2 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_10": {
+          "measurement": "V2 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_11": {
+          "measurement": "V2 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_12": {
+          "measurement": "V2 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_13": {
+          "measurement": "V2 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_14": {
+          "measurement": "V2 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_15": {
+          "measurement": "V2 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_16": {
+          "measurement": "V2 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_17": {
+          "measurement": "V2 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_18": {
+          "measurement": "V2 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_19": {
+          "measurement": "V2 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_20": {
+          "measurement": "V2 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_21": {
+          "measurement": "V2 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V2_22": {
+          "measurement": "V2 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      },
+      "v_3_tab": {
+        "V3_2": {
+          "measurement": "V3 harmonic order 2",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_3": {
+          "measurement": "V3 harmonic order 3",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_4": {
+          "measurement": "V3 harmonic order 4",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_5": {
+          "measurement": "V3 harmonic order 5",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_6": {
+          "measurement": "V3 harmonic order 6",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_7": {
+          "measurement": "V3 harmonic order 7",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_8": {
+          "measurement": "V3 harmonic order 8",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_9": {
+          "measurement": "V3 harmonic order 9",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_10": {
+          "measurement": "V3 harmonic order 10",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_11": {
+          "measurement": "V3 harmonic order 11",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_12": {
+          "measurement": "V3 harmonic order 12",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_13": {
+          "measurement": "V3 harmonic order 13",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_14": {
+          "measurement": "V3 harmonic order 14",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_15": {
+          "measurement": "V3 harmonic order 15",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_16": {
+          "measurement": "V3 harmonic order 16",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_17": {
+          "measurement": "V3 harmonic order 17",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_18": {
+          "measurement": "V3 harmonic order 18",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_19": {
+          "measurement": "V3 harmonic order 19",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_20": {
+          "measurement": "V3 harmonic order 20",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_21": {
+          "measurement": "V3 harmonic order 21",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        },
+        "V3_22": {
+          "measurement": "V3 harmonic order 22",
+          "format": "INT16",
+          "scale": "*100",
+          "unit": "%"
+        }
+      }
+    }
+  }
+}
